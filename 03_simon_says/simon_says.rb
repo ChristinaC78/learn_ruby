@@ -1,13 +1,14 @@
-puts "Do you hear an echo?"
-puts "hint: Ask nicely and i'll STOP"
+puts "Let's play Simon Says?"
+puts "hint: Say the magic words to stop!"
 echo = gets.chomp
 array = Array.new
 
-while echo != "STOP"
+while echo != "Simon Says"
   
   array << gets.chomp
   echo = array.last
   
 end
 puts " "
+puts "Simon Says"
 puts array
